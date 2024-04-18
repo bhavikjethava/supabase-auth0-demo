@@ -71,7 +71,6 @@ const User = () => {
           user_id: data.user_id,
           email: data.email,
         });
-        console.log("===>superBaseData", superBaseData);
         setFormData({});
         setUserAdded(true);
         setTimeout(() => {
